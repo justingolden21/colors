@@ -3,8 +3,8 @@ import App from './App.svelte';
 const app = new App({
 	target: document.body,
 	props: {
-		name: 'world'
-	}
+		APP_NAME: 'Colors',
+	},
 });
 
 export default app;
