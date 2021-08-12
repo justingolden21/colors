@@ -8,28 +8,27 @@ https://justingolden.me/colors
 
 ### Made With
 
-Made with [Svelte](https://svelte.dev) based on the [Svelte Template](https://github.com/sveltejs/template) using [degit](https://github.com/Rich-Harris/degit):
-`npx degit sveltejs/template svelte-app`
+Powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte)
 
 ### Requirements
 
--   [Node.js](https://nodejs.org)
+- [Node.js](https://nodejs.org)
 
 ### Get started
 
 Install: `npm i`
 
-Start [Rollup](https://rollupjs.org): `npm run dev`
+Dev: `npm run dev`
 
-Navigate to [localhost:5000](http://localhost:5000)
+Dev & Open: `npm run dev -- --open`
 
 Install [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) for syntax highlighting and intellisense in VS Code
 
 ### Build and Production
 
-Optimal build: `npm run build`
+Build: `npm run build`
 
-Run the newly built app: `npm run start`
+Preview: `npm run preview` (regardless of whether an adapter is installed, should not be used to serve app in production)
 
 ### About
 
